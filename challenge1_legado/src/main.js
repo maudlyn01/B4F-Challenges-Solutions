@@ -51,3 +51,21 @@ function printReport() {
 };
 
 printReport();
+
+function configurar(opcoes) {
+  const {
+    tema,
+    idioma,
+    notificacoes,
+    tamanho
+  } = opcoes;
+
+  return {
+    tema: tema ?? "claro",
+    idioma: idioma ?? "pt",
+    notificacoes: notificacoes ?? true,
+    tamanho: tamanho ?? 12
+  };
+}
+
+console.log(configurar({ idioma: "en" }));
