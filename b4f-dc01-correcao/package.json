@@ -1,0 +1,12 @@
+{
+  "name": "b4f-dc01-stock",
+  "version": "1.0.0",
+  "description": "Mercearia Xiluva — gestão de stock (Desafio de Código I, Bootcamp Bytes4Future)",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

@@ -1,0 +1,21 @@
+// Vendas de uma semana (dia 1 = segunda-feira … dia 6 = sábado)
+export const vendas = [
+  { id: "V001", produtoId: "P001", quantidade: 3, dia: 1 },
+  { id: "V002", produtoId: "P004", quantidade: 10, dia: 1 },
+  { id: "V003", produtoId: "P009", quantidade: 12, dia: 1 },
+  { id: "V004", produtoId: "P003", quantidade: 2, dia: 2 },
+  { id: "V005", produtoId: "P011", quantidade: 8, dia: 2 },
+  { id: "V006", produtoId: "P099", quantidade: 1, dia: 2 },
+  { id: "V007", produtoId: "P002", quantidade: 4, dia: 3 },
+  { id: "V008", produtoId: "P008", quantidade: 6, dia: 3 },
+  { id: "V009", produtoId: "P001", quantidade: 5, dia: 4 },
+  { id: "V010", produtoId: "P010", quantidade: 7, dia: 4 },
+  { id: "V011", produtoId: "P006", quantidade: 2, dia: 4 },
+  { id: "V012", produtoId: "P004", quantidade: 6, dia: 5 },
+  { id: "V013", produtoId: "P009", quantidade: 9, dia: 5 },
+  { id: "V014", produtoId: "P013", quantidade: 3, dia: 5 },
+  { id: "V015", produtoId: "P001", quantidade: 4, dia: 6 },
+  { id: "V016", produtoId: "P015", quantidade: 5, dia: 6 },
+  { id: "V017", produtoId: "P012", quantidade: 1, dia: 6 },
+  { id: "V018", produtoId: "P011", quantidade: 4, dia: 6 },
+];
